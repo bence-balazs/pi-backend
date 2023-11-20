@@ -1,3 +1,7 @@
+/* alter database to eu/bp timezone */
+ALTER DATABASE rpibp
+SET TIMEZONE TO 'Europe/Budapest';
+
 /* create cpu_temp table */
 CREATE TABLE cpu_temp (
   id serial PRIMARY KEY,
